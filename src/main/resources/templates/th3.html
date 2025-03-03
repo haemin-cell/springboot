@@ -10,7 +10,7 @@
 			<th>name</th>
 			<th>price</th>
 		</tr>
-		<tr th:each="prod : ${products}">
+		<tr th:each="prod : ${products}"><!---->
 			<td th:text="${prod.color}"></td>
 			<td th:text="${prod.productName}"></td>
 			<td th:text="${prod.price}"></td>
